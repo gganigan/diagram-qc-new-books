@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" pages="2">
   <diagram name="Part A -Flowchart" id="SE5d78RL7lIzb8PyMSbA">
     <mxGraphModel dx="1557" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Oy5-1iz3dQ-MNqcU2e8A-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;QC NewBooks - Post Entry Logic&lt;/h2&gt;" vertex="1">
-          <mxGeometry height="90" width="320" x="390" y="20" as="geometry" />
+          <mxGeometry height="90" width="420" x="570" y="10" as="geometry" />
         </mxCell>
         <mxCell id="s2P36q3ExKNjsHpW_UR7-4" edge="1" parent="1" source="Oy5-1iz3dQ-MNqcU2e8A-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="s2P36q3ExKNjsHpW_UR7-2">
           <mxGeometry relative="1" as="geometry" />
@@ -136,6 +136,25 @@
         </mxCell>
         <mxCell id="s2P36q3ExKNjsHpW_UR7-43" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;h1&gt;END&lt;/h1&gt;" vertex="1">
           <mxGeometry height="70" width="200" x="1112.37" y="580" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="G-BglnXt5uCJPROTybB-" name="Part B - ERD">
+    <mxGraphModel dx="983" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uh6taI2mEj6gppWTe2kL-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;QC NewBooks - Database Structure&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="80" width="430" x="290" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_Qd1MKE2cAq5v3RV3dTF-32" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=13;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" value="transactions" vertex="1">
+          <mxGeometry height="140" width="230" x="100" y="120" as="geometry">
+            <mxRectangle height="50" width="120" x="100" y="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Qd1MKE2cAq5v3RV3dTF-33" parent="_Qd1MKE2cAq5v3RV3dTF-32" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;font face=&quot;monospace&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=monospace&quot;&gt;id&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;SERIAL (PK)&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=monospace&quot;&gt;trans_date&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;DATE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=monospace&quot;&gt;amount&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;NUMERIC (12,2)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=monospace&quot;&gt;debit_acc&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;TEXT&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=monospace&quot;&gt;credit_acc&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;TEXT&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=monospace&quot;&gt;client_id&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;INTEGER (FK)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="230" y="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
