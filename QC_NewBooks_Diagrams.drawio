@@ -141,7 +141,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="G-BglnXt5uCJPROTybB-" name="Part B - ERD">
-    <mxGraphModel dx="983" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1437" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -149,7 +149,7 @@
           <mxGeometry height="80" width="430" x="290" y="20" as="geometry" />
         </mxCell>
         <mxCell id="_Qd1MKE2cAq5v3RV3dTF-32" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=13;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" value="transactions" vertex="1">
-          <mxGeometry height="140" width="230" x="390" y="180" as="geometry">
+          <mxGeometry height="140" width="230" x="570" y="220" as="geometry">
             <mxRectangle height="50" width="120" x="100" y="130" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -157,7 +157,7 @@
           <mxGeometry height="110" width="230" y="30" as="geometry" />
         </mxCell>
         <mxCell id="_Qd1MKE2cAq5v3RV3dTF-35" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=13;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="clients" vertex="1">
-          <mxGeometry height="100" width="230" x="40" y="100" as="geometry">
+          <mxGeometry height="100" width="230" x="230" y="130" as="geometry">
             <mxRectangle height="50" width="120" x="100" y="130" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
