@@ -1,0 +1,16 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36">
+  <diagram name="Part A -Flowchart" id="SE5d78RL7lIzb8PyMSbA">
+    <mxGraphModel dx="934" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Oy5-1iz3dQ-MNqcU2e8A-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;QC NewBooks - Post Entry Logic&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="90" width="320" x="265" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Oy5-1iz3dQ-MNqcU2e8A-3" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;h3&gt;&lt;b&gt;Start&lt;/b&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="325" y="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
